@@ -1,0 +1,30 @@
+.header {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 25px;
+    }
+  
+    .options {
+      width: 35%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      color: white;
+      justify-content: space-evenly;
+      position: relative;
+      right: 20%;
+  
+      .option {
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+  }
+  
